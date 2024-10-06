@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/green"
+    android:id="@+id/formulario"
+    tools:context=".formulario.FormularioFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center|top"
+        android:layout_marginTop="30dp"
+        android:textSize="40sp"
+        android:textColor="@color/black"
+        android:text="Formulario" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Escriba el id de la imagen"
+        android:layout_gravity="center"
+        android:layout_marginBottom="150dp"
+        android:textColorHint="@color/blue"
+        android:textColor="@color/black"
+        android:textSize="15sp"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Escriba la descripción de la imagen"
+        android:layout_gravity="center"
+        android:layout_marginBottom="50dp"
+        android:textColorHint="@color/blue"
+        android:textColor="@color/black"
+        android:textSize="15sp"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Escriba el estado de la planta"
+        android:layout_gravity="center"
+        android:layout_marginBottom="-50dp"
+        android:textColorHint="@color/blue"
+        android:textColor="@color/black"
+        android:textSize="15sp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="200dp"
+        android:backgroundTint="@color/blue"
+        android:text="Enviar"/>
+
+    <Button
+        android:id="@+id/buttonVolverFormulario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="300dp"
+        android:backgroundTint="@color/blue"
+        android:text="Volver"/>
+
+</FrameLayout>
